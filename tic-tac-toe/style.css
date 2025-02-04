@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+	background-color: rgba(26, 42, 51, 1);
+	margin: 5px 20px;
+	color: rgba(168, 191, 201, 1);
+	font-family: "Outfit", serif;
+	display: flex;
+	justify-content: center;
+}
+
+main {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.croit-rond {
+	display: flex;
+	justify-content: center;
+	margin-top: 35px;
+	gap: 10px;
+}
+
+.choit-croit img {
+	filter: brightness(0) saturate(100%) invert(69%) sepia(50%) saturate(5%)
+		hue-rotate(46deg) brightness(89%) contrast(90%);
+}
+.choit-rond img {
+	filter: brightness(0) saturate(100%) invert(16%) sepia(15%) saturate(1054%)
+		hue-rotate(158deg) brightness(90%) contrast(98%);
+}
+.choit-croit {
+	background-color: transparent;
+	border: none;
+	padding: 10px 0px;
+	width: 50%;
+	margin-left: 10px;
+}
+.choit-croit:hover {
+	background-color: rgba(168, 191, 201, 0.05);
+	border-radius: 15px;
+}
+.choit-rond {
+	background-color: rgba(168, 191, 201, 1);
+	border: none;
+	border-radius: 15px;
+	padding: 10px 0px;
+	padding-top: 12px;
+	width: 50%;
+	margin-right: 10px;
+}
+
+.choit-du-joueur1 {
+	background-color: rgba(31, 54, 65, 1);
+	border-radius: 25px;
+	box-shadow: 0px 8px 0px 1px rgba(16, 33, 42, 1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px 0px;
+	margin-top: 35px;
+	width: 55%;
+}
+.choit {
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(26, 42, 51, 1);
+	width: 90%;
+	border-radius: 15px;
+	padding: 10px 0px;
+}
+
+.defi {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	margin-top: 35px;
+	width: 80%;
+}
+.CPU {
+	border: none;
+	background-color: rgba(242, 177, 55, 1);
+	box-shadow: 0px 5px 0px 0px rgba(204, 139, 19, 1);
+	border-radius: 15px;
+	padding: 10px;
+	width: 69%;
+	color: rgba(26, 42, 51, 1);
+	font-weight: 700;
+	line-height: 20.16px;
+	font-size: 16px;
+}
+.CPU:hover {
+	background-color: rgba(255, 200, 96, 1);
+}
+.PLAYER {
+	border: none;
+	background: rgba(49, 195, 189, 1);
+	box-shadow: 0px 5px 0px 0px rgba(17, 140, 135, 1);
+	border-radius: 15px;
+	padding: 10px;
+	width: 69%;
+	color: rgba(26, 42, 51, 1);
+	font-weight: 700;
+	line-height: 20.16px;
+	font-size: 16px;
+}
+.PLAYER:hover {
+	background-color: rgba(101, 233, 228, 1);
+}
+
+@media screen and (min-width: 769px) {
+	main {
+		width: 80%;
+	}
+	body {
+		margin-top: 55px;
+	}
+}
+@media screen and (min-width: 1441px) {
+	main {
+		width: 75%;
+	}
+	body {
+		margin-top: 55px;
+	}
+}

@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+	background-color: rgba(26, 42, 51, 1);
+	color: rgba(168, 191, 201, 1);
+	font-family: "Outfit", serif;
+	display: flex;
+	justify-content: center;
+	margin-top: 75px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.grand {
+	font-weight: 700;
+	line-height: 20.16px;
+	font-size: 16px;
+}
+.petit {
+	font-weight: 400;
+	line-height: 17.64px;
+	font-size: 14px;
+}
+
+.info {
+	width: 100%;
+	margin-bottom: 50px;
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.tour {
+	display: flex;
+	width: 40%;
+	gap: 10px;
+	background-color: rgba(31, 54, 65, 1);
+	border-radius: 10px;
+	box-shadow: 0px 4px 0px 1px rgba(16, 33, 42, 1);
+	justify-content: center;
+}
+.tour img {
+	filter: brightness(0) saturate(100%) invert(69%) sepia(50%) saturate(5%)
+		hue-rotate(46deg) brightness(89%) contrast(90%);
+}
+.retour button {
+	background-color: rgba(168, 191, 201, 1);
+	box-shadow: 0px 4px 0px 1px rgba(107, 137, 151, 1);
+	border-radius: 5px;
+	border: none;
+	padding: 10px 12px;
+	padding-top: 11px;
+}
+.retour button:hover {
+	background-color: rgba(219, 232, 237, 1);
+}
+
+.tableau button {
+	background-color: rgba(31, 54, 65, 1);
+	box-shadow: 0px 8px 0px 1px rgba(16, 33, 42, 1);
+	width: 100%;
+	border-radius: 15px;
+	border: none;
+}
+.tableau button:hover {
+	background-color: rgba(31, 54, 65, 1);
+}
+
+.casse:hover {
+	background: center no-repeat url(./asset/croit-vide.svg);
+	background-size: 50%;
+}
+/* .casse:hover {
+	background: center no-repeat url(./asset/rond-vide.svg);
+	background-size: 50%;
+} */
+
+.tableau {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 15px;
+}
+.tableau img {
+	width: 80px;
+}
+
+.resultat {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	gap: 10px;
+}
+.note {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding: 10px 0px;
+	border-radius: 10px;
+}
+.note p {
+	margin: 0;
+	color: rgba(26, 42, 51, 1);
+}
+.X {
+	background: rgba(49, 195, 189, 1);
+}
+.O {
+	background-color: rgba(242, 177, 55, 1);
+}
+.egalite {
+	background-color: rgba(168, 191, 201, 1);
+}
+
+.rematche {
+	position: absolute;
+	top: 32%;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	background-color: rgba(31, 54, 65, 1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 25px;
+}
+.QUIT {
+	background-color: rgba(168, 191, 201, 1);
+	box-shadow: 0px 3px 0px 0px rgba(107, 137, 151, 1);
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+}
+.QUIT:hover {
+	background-color: rgba(219, 232, 237, 1);
+}
+.NEXT-ROUND {
+	border: none;
+	background-color: rgba(242, 177, 55, 1);
+	box-shadow: 0px 3px 0px 0px rgba(204, 139, 19, 1);
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+}
+.NEXT-ROUND:hover {
+	background-color: rgba(255, 200, 96, 1);
+}
+.button {
+	display: flex;
+	margin-top: 20px;
+	gap: 10px;
+}
+
+.croit-victoire {
+	display: flex;
+	gap: 10px;
+	color: rgba(49, 195, 189, 1);
+}
+.croit-victoire h1 {
+	margin: 0;
+}
+
+.croit-defaite {
+	display: flex;
+	gap: 10px;
+	color: rgba(255, 200, 96, 1);
+}
+.croit-defaite h1 {
+	margin: 0;
+}
