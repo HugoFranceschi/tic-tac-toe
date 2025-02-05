@@ -4,12 +4,35 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="game.css" />
 	</head>
 	<body>
 		<main>
-			<div class="info">
+			<div class="menu">
 				<div class="croit-rond">
+					<img src="./asset/croit.svg" alt="croit" />
+					<img src="./asset/rond.svg" alt="rond" />
+				</div>
+				<div class="choit-du-joueur1">
+					<p>PICK PLAYER 1’S MARK</p>
+					<div class="choit">
+						<button class="choit-croit">
+							<img src="./asset/croit.svg" alt="croit" />
+						</button>
+						<button class="choit-rond">
+							<img src="./asset/rond.svg" alt="rond" />
+						</button>
+					</div>
+					<p>REMEMBER : X GOES FIRST</p>
+				</div>
+				<div class="defi">
+					<button class="CPU">NEW GAME (VS CPU)</button>
+					<button class="PLAYER">NEW GAME (VS PLAYER)</button>
+				</div>
+			</div>
+			<div class="info">
+				<div class="croit-rond-game">
 					<img src="./asset/croit.svg" alt="croit" />
 					<img src="./asset/rond.svg" alt="rond" />
 				</div>
@@ -58,9 +81,9 @@
 						<button class="NEXT-ROUND grand">NEXT ROUND</button>
 					</div>
 				</div>
-			</div> -->
-			<!-- <div class="perdu">
-                <div class="rematche">
+			</div>
+			<div class="perdu">
+				<div class="rematche">
 					<p>OH NO, YOU LOST…</p>
 					<div class="croit-defaite">
 						<img src="./asset/rond.svg" alt="rond" />
@@ -71,8 +94,8 @@
 						<button class="NEXT-ROUND grand">NEXT ROUND</button>
 					</div>
 				</div>
-            </div> -->
-			<!-- <div class="execo">
+			</div>
+			<div class="execo">
 				<div class="rematche">
 					<div class="match-nul">
 						<h1>RESTART GAME?</h1>

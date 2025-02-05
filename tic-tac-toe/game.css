@@ -9,6 +9,20 @@ body {
 	margin-top: 75px;
 }
 
+.menu {
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	display: flex;
+	background-color: rgba(26, 42, 51, 1);
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 main {
 	display: flex;
 	flex-direction: column;
@@ -172,4 +186,8 @@ main {
 }
 .croit-defaite h1 {
 	margin: 0;
+}
+.match-nul h1 {
+	padding-top: 15px;
+	margin-bottom: 0;
 }
