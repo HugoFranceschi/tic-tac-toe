@@ -100,6 +100,7 @@ main {
 }
 .tableau img {
 	width: 80px;
+	height: 60%;
 }
 
 .resultat {
@@ -190,4 +191,10 @@ main {
 .match-nul h1 {
 	padding-top: 15px;
 	margin-bottom: 0;
+}
+
+.match-nul{
+	display: flex;
+    gap: 10px;
+
 }
