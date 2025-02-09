@@ -65,6 +65,7 @@ function createBandrole(player1, player2) {
 	buttonDiv.appendChild(nextRoundButton);
 
 	return banderoleDiv;
+	
 }
 
 const baderole = createBandrole(true, false);
@@ -137,7 +138,7 @@ const victoir = [
 		false,
 		false,
 		false
-	]
+	],
 	[ /*ooo
 		###
 		ooo*/
@@ -150,7 +151,7 @@ const victoir = [
 		false,
 		false,
 		false
-	]
+	],
 	[ /*ooo
 		ooo
 		###*/
@@ -163,7 +164,7 @@ const victoir = [
 		true,
 		true,
 		true
-	]
+	],
 	[ /*#oo
 		o#o
 		oo#*/
@@ -176,7 +177,7 @@ const victoir = [
 		false,
 		false,
 		true
-	]
+	],
 	[ /*oo#
 		o#o
 		#oo*/
@@ -189,7 +190,7 @@ const victoir = [
 		true,
 		false,
 		false
-	]
+	],
 	[ /*#oo
 		#oo
 		#oo*/
@@ -202,7 +203,7 @@ const victoir = [
 		true,
 		false,
 		false
-	]
+	],
 	[ /*oo#
 		oo#
 		oo#*/
@@ -215,7 +216,7 @@ const victoir = [
 		false,
 		false,
 		true
-	]
+	],
 	[ /*o#o
 		o#o
 		o#o*/
@@ -233,6 +234,8 @@ const victoir = [
 
 for (let i = 0; i < casseButton.length; i++){
 	if (casseButton[i] == victoir){
-		
+		console.log("sa marche")
 	}
 }
+
+
